@@ -1,0 +1,1 @@
+g++ main.cpp dbmanager.cpp -I ../../3rd-soft/include/ -L ../../3rd-soft/lib/ -lsybdb -ljsoncpp -o dbman
