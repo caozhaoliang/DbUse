@@ -9,8 +9,6 @@
 
 using namespace std;
 using namespace oracle::occi;
-namespace thinkive
-{
 	class COracleDBClient
 	{
 	public:
@@ -36,6 +34,5 @@ namespace thinkive
 		string m_strPwd;      //连接数据库密码
 		string m_strConnect;  //连接数据库字符串(服务器地址:1521/实例名)
 	};
-}
 
 #endif

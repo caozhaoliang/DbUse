@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdio.h>
 //#include "global.h"
-using namespace thinkive;
 
 static void split(string s,string sep,vector<string>& v){
 	v.clear();
